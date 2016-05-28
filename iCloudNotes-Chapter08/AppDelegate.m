@@ -14,9 +14,20 @@
 
 @implementation AppDelegate
 
+- (void)iCloudSetup{
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSURL *iCloudURL=[[NSFileManager defaultManager] URLForUbiquityContainerIdentifier:@"iCloud.com.ZhangBaoGuo.iCloudNotes-Chapter08"];
+        if (iCloudURL) {
+            NSLog(@"iCloud URL is available");
+        }else{
+            NSLog(@"iCloud URL is NOT available");
+        }
+    });
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self iCloudSetup];
     return YES;
 }
 

@@ -7,25 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EE540281CF7275000B47B79 /* ConflictResolutionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE540271CF7275000B47B79 /* ConflictResolutionVC.m */; };
+		1EE5402B1CF7285400B47B79 /* ConflictVersionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE5402A1CF7285400B47B79 /* ConflictVersionVC.m */; };
+		1EE5402E1CF72B7700B47B79 /* MasterTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE5402D1CF72B7700B47B79 /* MasterTVC.m */; };
+		1EE540311CF72B8D00B47B79 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE540301CF72B8D00B47B79 /* DetailVC.m */; };
 		1EEE27A31CF5ECDB0060E8E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE27A21CF5ECDB0060E8E2 /* main.m */; };
 		1EEE27A61CF5ECDB0060E8E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE27A51CF5ECDB0060E8E2 /* AppDelegate.m */; };
-		1EEE27A91CF5ECDB0060E8E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE27A81CF5ECDB0060E8E2 /* ViewController.m */; };
 		1EEE27AC1CF5ECDB0060E8E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE27AA1CF5ECDB0060E8E2 /* Main.storyboard */; };
 		1EEE27AE1CF5ECDB0060E8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE27AD1CF5ECDB0060E8E2 /* Assets.xcassets */; };
 		1EEE27B11CF5ECDB0060E8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE27AF1CF5ECDB0060E8E2 /* LaunchScreen.storyboard */; };
+		1EEE27BD1CF5F02D0060E8E2 /* NoteDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE27BC1CF5F02D0060E8E2 /* NoteDocument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EE540261CF7275000B47B79 /* ConflictResolutionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConflictResolutionVC.h; sourceTree = "<group>"; };
+		1EE540271CF7275000B47B79 /* ConflictResolutionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConflictResolutionVC.m; sourceTree = "<group>"; };
+		1EE540291CF7285400B47B79 /* ConflictVersionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConflictVersionVC.h; sourceTree = "<group>"; };
+		1EE5402A1CF7285400B47B79 /* ConflictVersionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConflictVersionVC.m; sourceTree = "<group>"; };
+		1EE5402C1CF72B7700B47B79 /* MasterTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTVC.h; sourceTree = "<group>"; };
+		1EE5402D1CF72B7700B47B79 /* MasterTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTVC.m; sourceTree = "<group>"; };
+		1EE5402F1CF72B8D00B47B79 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		1EE540301CF72B8D00B47B79 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
 		1EEE279E1CF5ECDB0060E8E2 /* iCloudNotes-Chapter08.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iCloudNotes-Chapter08.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEE27A21CF5ECDB0060E8E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EEE27A41CF5ECDB0060E8E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1EEE27A51CF5ECDB0060E8E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1EEE27A71CF5ECDB0060E8E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1EEE27A81CF5ECDB0060E8E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1EEE27AB1CF5ECDB0060E8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EEE27AD1CF5ECDB0060E8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EEE27B01CF5ECDB0060E8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EEE27B21CF5ECDB0060E8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EEE27B81CF5EDFD0060E8E2 /* iCloudNotes-Chapter08.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iCloudNotes-Chapter08.entitlements"; sourceTree = "<group>"; };
+		1EEE27BB1CF5F02D0060E8E2 /* NoteDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDocument.h; sourceTree = "<group>"; };
+		1EEE27BC1CF5F02D0060E8E2 /* NoteDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDocument.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +71,20 @@
 		1EEE27A01CF5ECDB0060E8E2 /* iCloudNotes-Chapter08 */ = {
 			isa = PBXGroup;
 			children = (
+				1EEE27B81CF5EDFD0060E8E2 /* iCloudNotes-Chapter08.entitlements */,
 				1EEE27A41CF5ECDB0060E8E2 /* AppDelegate.h */,
 				1EEE27A51CF5ECDB0060E8E2 /* AppDelegate.m */,
-				1EEE27A71CF5ECDB0060E8E2 /* ViewController.h */,
-				1EEE27A81CF5ECDB0060E8E2 /* ViewController.m */,
 				1EEE27AA1CF5ECDB0060E8E2 /* Main.storyboard */,
+				1EE5402C1CF72B7700B47B79 /* MasterTVC.h */,
+				1EE5402D1CF72B7700B47B79 /* MasterTVC.m */,
+				1EE5402F1CF72B8D00B47B79 /* DetailVC.h */,
+				1EE540301CF72B8D00B47B79 /* DetailVC.m */,
+				1EEE27BB1CF5F02D0060E8E2 /* NoteDocument.h */,
+				1EEE27BC1CF5F02D0060E8E2 /* NoteDocument.m */,
+				1EE540261CF7275000B47B79 /* ConflictResolutionVC.h */,
+				1EE540271CF7275000B47B79 /* ConflictResolutionVC.m */,
+				1EE540291CF7285400B47B79 /* ConflictVersionVC.h */,
+				1EE5402A1CF7285400B47B79 /* ConflictVersionVC.m */,
 				1EEE27AD1CF5ECDB0060E8E2 /* Assets.xcassets */,
 				1EEE27AF1CF5ECDB0060E8E2 /* LaunchScreen.storyboard */,
 				1EEE27B21CF5ECDB0060E8E2 /* Info.plist */,
@@ -110,6 +132,12 @@
 				TargetAttributes = {
 					1EEE279D1CF5ECDB0060E8E2 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9R3WHNFTF3;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -149,7 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EEE27A91CF5ECDB0060E8E2 /* ViewController.m in Sources */,
+				1EE540281CF7275000B47B79 /* ConflictResolutionVC.m in Sources */,
+				1EE5402B1CF7285400B47B79 /* ConflictVersionVC.m in Sources */,
+				1EEE27BD1CF5F02D0060E8E2 /* NoteDocument.m in Sources */,
+				1EE540311CF72B8D00B47B79 /* DetailVC.m in Sources */,
+				1EE5402E1CF72B7700B47B79 /* MasterTVC.m in Sources */,
 				1EEE27A61CF5ECDB0060E8E2 /* AppDelegate.m in Sources */,
 				1EEE27A31CF5ECDB0060E8E2 /* main.m in Sources */,
 			);
@@ -263,10 +295,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iCloudNotes-Chapter08/iCloudNotes-Chapter08.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "iCloudNotes-Chapter08/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZhangBaoGuo.iCloudNotes-Chapter08";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +311,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iCloudNotes-Chapter08/iCloudNotes-Chapter08.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "iCloudNotes-Chapter08/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZhangBaoGuo.iCloudNotes-Chapter08";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +342,7 @@
 				1EEE27B71CF5ECDB0060E8E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
